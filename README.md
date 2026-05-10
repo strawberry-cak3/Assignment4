@@ -24,14 +24,11 @@ Use Cases: Finding the shortest path in unweighted graphs, social networking (fi
 Time Complexity: O(V + E), where V is vertices and E is edges.
 
 2. Depth-First Search (DFS)   
-
 Step-by-step:
-
 1) Start from a root node and push it onto a Stack (or use recursion).
 2) Mark the node as visited.
 3) Travel as far as possible along each branch before backtracking.
-
-Repeat for all unvisited branches.  
+4) Repeat for all unvisited branches.  
 Use Cases: Solving puzzles (mazes), topological sorting, detecting cycles in a graph.
 
 # D. Experimental Results
