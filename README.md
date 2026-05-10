@@ -3,9 +3,7 @@ A. Project Overview.
 This project implements a graph representation system using an Adjacency List. 
 The system allows for creating graphs of various sizes and performing two fundamental traversal algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS).
 
-
 Vertices: Represent unique nodes in the network (e.g., users, cities).
-
 
 Edges: Represent directed connections between these nodes.# Assignment4
 
@@ -15,8 +13,8 @@ Edge: Represents a directed connection from a source vertex to a destination ver
 Graph: The core structure that manages vertices and edges using a Map<Integer, List<Edge>> to implement an adjacency list.
 Experiment: A utility class to automate testing across different graph scales (10, 30, and 100 vertices) and measure execution time. 
 
-C. Algorithm Descriptions1. 
-Breadth-First Search (BFS)   
+C. Algorithm Descriptions
+1. Breadth-First Search (BFS)   
 Step-by-step: 
 1) Start from a root node and add it to a Queue.
 2) Mark the node as visited.
