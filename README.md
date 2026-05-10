@@ -1,4 +1,4 @@
-A. Project Overview.
+# A. Project Overview.
 
 This project implements a graph representation system using an Adjacency List. 
 The system allows for creating graphs of various sizes and performing two fundamental traversal algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS).
@@ -7,13 +7,13 @@ Vertices: Represent unique nodes in the network (e.g., users, cities).
 
 Edges: Represent directed connections between these nodes.# Assignment4
 
-B. Class Descriptions
+# B. Class Descriptions
 Vertex: A class representing a node with a unique id.
 Edge: Represents a directed connection from a source vertex to a destination vertex.  
 Graph: The core structure that manages vertices and edges using a Map<Integer, List<Edge>> to implement an adjacency list.
 Experiment: A utility class to automate testing across different graph scales (10, 30, and 100 vertices) and measure execution time. 
 
-C. Algorithm Descriptions
+# C. Algorithm Descriptions
 1. Breadth-First Search (BFS)   
 Step-by-step: 
 1) Start from a root node and add it to a Queue.
@@ -34,7 +34,7 @@ Step-by-step:
 Repeat for all unvisited branches.  
 Use Cases: Solving puzzles (mazes), topological sorting, detecting cycles in a graph.
 
-D. Experimental Results
+# D. Experimental Results
 Execution Time Comparison
 
 | Graph Size | BFS Execution Time (ns) | DFS Execution Time (ns) |
@@ -48,7 +48,7 @@ Observations and Analysis
 2) Algorithm Speed: In this experiment, DFS performed faster than BFS. This is likely due to the low overhead of recursion compared to the object instantiation required for the BFS Queue.  
 3) Graph Structure: For the small graph, some vertices had no outgoing edges (e.g., Vertex 3, 4), resulting in "empty" connectivity lists and very short traversal paths.
 
-E. Screenshots
+# E. Screenshots
 Vertex
 <img width="1216" height="714" alt="carbon (1)" src="https://github.com/user-attachments/assets/56c0955b-2192-4d71-872e-fd7f11ca4ecc" />
 
@@ -65,7 +65,7 @@ Main
 <img width="1216" height="342" alt="carbon (4)" src="https://github.com/user-attachments/assets/64b60de1-db2c-4708-aed0-0e269321f0c1" />
 
 
-F. Reflection Section   
+# F. Reflection Section   
 Through this assignment, I deepened my understanding of non-linear data structures. 
 I learned that while BFS and DFS have the same theoretical time complexity, their practical performance depends on the implementation (iteration vs. recursion) and the specific structure of the graph. 
 One of the main challenges was managing the random generation of edges to ensure the graph remained connected enough to demonstrate a full traversal. 
