@@ -1,5 +1,7 @@
-A. Project Overview
-This project implements a graph representation system using an Adjacency List. The system allows for creating graphs of various sizes and performing two fundamental traversal algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS).
+A. Project Overview.
+
+This project implements a graph representation system using an Adjacency List. 
+The system allows for creating graphs of various sizes and performing two fundamental traversal algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS).
 
 
 Vertices: Represent unique nodes in the network (e.g., users, cities).
