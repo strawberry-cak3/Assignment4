@@ -1,4 +1,4 @@
-<img width="1216" height="342" alt="carbon (4)" src="https://github.com/user-attachments/assets/cfc8c455-10ad-4ac4-818a-e73a73e112a1" />A. Project Overview
+A. Project Overview
 This project implements a graph representation system using an Adjacency List. The system allows for creating graphs of various sizes and performing two fundamental traversal algorithms: Breadth-First Search (BFS) and Depth-First Search (DFS).
 
 
