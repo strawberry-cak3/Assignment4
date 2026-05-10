@@ -64,6 +64,9 @@ Experiment
 Main
 <img width="1216" height="342" alt="carbon (4)" src="https://github.com/user-attachments/assets/64b60de1-db2c-4708-aed0-0e269321f0c1" />
 
+Results
+
+<img width="565" height="715" alt="image" src="https://github.com/user-attachments/assets/008af1e9-dba1-4fa2-be41-faf1ae722f2e" />
 
 # F. Reflection Section   
 Through this assignment, I deepened my understanding of non-linear data structures. 
